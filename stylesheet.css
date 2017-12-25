@@ -1,0 +1,192 @@
+*{
+	margin: 0;
+}
+/* ----HEADER -----*/
+#header{
+	display: flex;
+	height: 120px;
+	width: 100%;
+	background-color: #7A2888;
+	justify-content: center;
+
+}
+#header img{
+	max-height: 65px;
+	padding-top: 25px;
+	padding-left: 200px;	
+	align-content: center;
+	padding-right: 200px;
+}
+/* ----SUBHEADER WITH BACKGROUND IMAGE -----*/
+#subheader {
+	background: rgba(0, 0, 0, 0) url("img/background.jpg") no-repeat scroll center center / cover;
+	height: 350px;
+	opacity: 0.9;
+	
+}
+#subheader h1{
+	opacity: 1;
+	text-align: center;
+	padding-top: 100px;
+	color: white;
+	font-family: arial;
+	font-weight: bold;
+	font-size: 75px;
+	padding-left: 100px;
+	padding-right: 150px;
+}
+/* ----ALL PROFILES -----*/
+#allprofiles img{
+	max-width: 120px;
+	max-height: 120px;
+
+}
+.profile{
+	display: inline-flex;
+	flex-wrap: wrap;
+	background-color: #D5C1D8;
+	margin-left: 15px;
+	margin-top: 30px;
+
+	width: 380px;
+	height: 180px;
+}
+.profile img{
+	padding: 15px;
+}
+.info{
+	padding-top: 16px;
+
+}
+.profile h1{
+	font-weight: 200;
+	font-family: arial;
+	font-size: 17px;
+}
+.firstname{
+	display: inline-flex;
+}
+.lastname{
+	display: inline-flex;
+	padding-top: 15px;
+}
+.age{
+	display: inline-flex;
+	padding-top: 15px;
+}
+#name1{
+	padding-left: 10px;
+	font-weight: bold;
+	font-size: 19px;
+}
+#name2{
+	padding-left: 10px;
+	font-weight: bold;
+	font-size: 19px;
+}
+#name3{
+	padding-left: 10px;
+	font-weight: bold;
+	font-size: 19px;
+}
+#name4{
+	padding-left: 10px;
+	font-weight: bold;
+	font-size: 19px;
+}
+#sname1{
+	padding-left: 10px;
+	font-weight: bold;
+	font-size: 19px;
+}
+#sname2{
+	padding-left: 10px;
+	font-weight: bold;
+	font-size: 19px;
+}
+#sname3{
+	padding-left: 10px;
+	font-weight: bold;
+	font-size: 19px;
+}
+#sname4{
+	padding-left: 10px;
+	font-weight: bold;
+	font-size: 19px;
+}
+#age1{
+	padding-left: 10px;
+	font-weight: bold;
+	font-size: 19px;
+}
+#age2{
+	padding-left: 10px;
+	font-weight: bold;
+	font-size: 19px;
+}
+#age3{
+	padding-left: 10px;
+	font-weight: bold;
+	
+}
+#age4{
+	padding-left: 10px;
+	font-weight: bold;
+	font-size: 19px;
+}
+/* ----LIKE-BUTTON -----*/
+.button{
+	padding-top: 130px;
+}
+button{
+	background-color: #A5D6CF;
+	border-radius: 6px;
+	border-color: grey;
+	font-family: arial;
+	font-size: 17px;
+	height: 35px;
+	width: 70px;
+
+}
+.heart img{
+	margin-left: 350px;
+	margin-bottom: 200px;
+
+}
+.likes{
+	padding-top: 126px;
+	font-size: 40px;
+	color: #DA142A;
+	font-weight: bold;
+	padding-left: 1px;
+	padding-right: 0px;
+	font-family: arial;
+}
+
+/* --- FOOTER -----*/
+#footer{
+	display: flex;
+	height: 100px;
+	width: 100%;
+	justify-content: center;
+	border-top-color: black;
+	border-top: solid;
+	margin-top: 50px; 
+
+	
+
+}
+#footer img{
+	max-height: 30px;
+	padding-top: 45px;
+	padding-left: 200px;	
+	align-content: center;
+	padding-right: 200px;
+
+}
+
+
+
+
+
+
